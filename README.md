@@ -1,5 +1,5 @@
 # 3DCPath-datasets
-Compilation of publicly available-datasets in 3D Pathology.
+Compilation of publicly available datasets in 3D Pathology.
 
 ## Volumetric morphological/imaging data
 
