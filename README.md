@@ -1,10 +1,37 @@
-# 3DCPath-datasets
-Compilation of publicly available datasets in 3D Pathology.
+# 3DCPath-datasets: Compilation of publicly-available datasets in 3D pathology
+
+<style>
+  .dataset-table {
+    min-width: 1500px;
+    table-layout: fixed;
+    font-size: 0.9rem;
+  }
+
+  .dataset-table th,
+  .dataset-table td {
+    padding: 8px 10px;
+    vertical-align: middle;
+  }
+
+  .dataset-table .title-col {
+    width: 26%;
+  }
+</style>
 
 ## Volumetric morphological/imaging data
 
 <div style="overflow-x: auto;">
-<table>
+<table class="dataset-table">
+  <colgroup>
+    <col width="13%" style="width: 13%;">
+    <col width="13%" style="width: 13%;">
+    <col width="26%" class="title-col" style="width: 26%;">
+    <col width="15%" style="width: 15%;">
+    <col width="13%" style="width: 13%;">
+    <col width="13%" style="width: 13%;">
+    <col width="30%" style="width: 30%;">
+    <col width="6%" style="width: 6%;">
+  </colgroup>
   <thead>
     <tr>
       <th>Venue / Date</th>
@@ -149,7 +176,19 @@ Compilation of publicly available datasets in 3D Pathology.
 ## Volumetric genomic data
 
 <div style="overflow-x: auto;">
-<table>
+<table class="dataset-table">
+  <colgroup>
+    <col width="11%" style="width: 11%;">
+    <col width="11%" style="width: 11%;">
+    <col width="26%" class="title-col" style="width: 26%;">
+    <col width="12%" style="width: 12%;">
+    <col width="10%" style="width: 10%;">
+    <col width="13%" style="width: 13%;">
+    <col width="6%" style="width: 6%;">
+    <col width="11%" style="width: 11%;">
+    <col width="7%" style="width: 7%;">
+    <col width="5%" style="width: 5%;">
+  </colgroup>
   <thead>
     <tr>
       <th>Journal / Date</th>
@@ -252,7 +291,19 @@ Compilation of publicly available datasets in 3D Pathology.
 ## Volumetric morphological & genomic data 
 
 <div style="overflow-x: auto;">
-<table>
+<table class="dataset-table">
+  <colgroup>
+    <col width="9%" style="width: 9%;">
+    <col width="10%" style="width: 10%;">
+    <col width="22%" class="title-col" style="width: 22%;">
+    <col width="10%" style="width: 10%;">
+    <col width="8%" style="width: 8%;">
+    <col width="8%" style="width: 8%;">
+    <col width="4%" style="width: 4%;">
+    <col width="20%" style="width: 20%;">
+    <col width="4%" style="width: 4%;">
+    <col width="5%" style="width: 5%;">
+  </colgroup>
   <thead>
     <tr>
       <th>Journal / Date</th>
