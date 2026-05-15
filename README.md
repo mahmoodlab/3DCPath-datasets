@@ -189,9 +189,10 @@ Compilation of publicly available datasets in 3D Pathology.
       </td>
       <td>Highly multiplexed 3D profiling of cell states and immune niches in human tumors</td>
       <td>3D CyCIF</td>
+      <td>140 nm × 140 nm × 280 nm voxels (200–500 voxels per cell) - 20–54-plex</td> 
       <td>Melanoma specimens: (1) preinvasive cutaneous melanoma, (2) invasive VGP primary melanoma, (3) Metastatic melanoma to the skin</td>
       <td>3</td>
-      <td>20–54-plex images with 140 nm × 140 nm × 280 nm voxels (200–500 voxels per cell)</td> 
+      <td>5–50-µm-thick sections</td> 
       <td>N/A</td>
       <td>3.17TB</td>
     </tr>
