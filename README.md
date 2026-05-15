@@ -1,53 +1,24 @@
 # 3DCPath-datasets: Compilation of publicly-available datasets in 3D pathology
 
-<!-- <style>
-  .dataset-table {
-    min-width: 1500px;
-    table-layout: fixed;
-    font-size: 0.9rem;
-  }
-
-  .dataset-table th,
-  .dataset-table td {
-    padding: 8px 10px;
-    vertical-align: middle;
-  }
-
-  .dataset-table .title-col {
-    width: 26%;
-  }
-</style> -->
-
 ## Volumetric morphological/imaging data
 
-<div style="overflow-x: auto;">
-<table class="dataset-table">
-  <colgroup>
-    <col width="13%" style="width: 13%;">
-    <col width="13%" style="width: 13%;">
-    <col width="26%" class="title-col" style="width: 26%;">
-    <col width="15%" style="width: 15%;">
-    <col width="13%" style="width: 13%;">
-    <col width="13%" style="width: 13%;">
-    <col width="30%" style="width: 30%;">
-    <col width="6%" style="width: 6%;">
-  </colgroup>
+<div>
+<table width="1600">
   <thead>
     <tr>
-      <th>Venue / Date</th>
-      <th>Dataset</th>
-      <th>Title</th>
-      <th>Modality</th>
-      <th>Resolution</th>
-      <th>Organ</th>
-      <th>Volumes</th>
-      <th>Size</th>
+      <th width="150">Venue / Date</th>
+      <th width="160">Dataset</th>
+      <th width="360">Title</th>
+      <th width="200">Modality</th>
+      <th width="180">Resolution</th>
+      <th width="180">Organ</th>
+      <th width="280">Volumes</th>
+      <th width="90">Size</th>
     </tr>
   </thead>
   <tbody>
-    </tr>
-      <tr>
-      <td><em>arXiv<em>(2025)</td>
+    <tr>
+      <td><em>arXiv</em>(2025)</td>
       <td>
         <a href="https://huggingface.co/datasets/cristinaperez9/VISTACT"><strong>VISTACT</strong></a><br>
       </td>
@@ -58,9 +29,8 @@
       <td>10 from human tissue (4 patients), and 1 from mice tissue</td>
       <td>869GB</td>
     </tr>
-    </tr>
-      <tr>
-      <td><em>Nature Communications<em>(2025)</td>
+    <tr>
+      <td><em>Nature Communications</em>(2025)</td>
       <td>
         <a href="https://www.scidb.cn/en/detail?dataSetId=a41dec8943814999a6149b7c2c7c82fc"><strong>Holotomography</strong></a><br>
         <a href="https://www.nature.com/articles/s41467-025-59820-0"><strong>[Paper]</strong></a>
@@ -73,7 +43,7 @@
       <td>24.74GB</td>
     </tr>
     <tr>
-      <td><em>Cancer Research<em>(March 2023)</td>
+      <td><em>Cancer Research</em>(March 2023)</td>
       <td>
         <a href="https://www.cancerimagingarchive.net/collection/pca_bx_3dpathology/"><strong>PCa_Bx_3Dpathology</strong></a><br>
         <a href="https://aacrjournals.org/cancerres/article/82/2/334/675486/Prostate-Cancer-Risk-Stratification-via?guestAccessKey="><strong>[Paper]</strong></a>
@@ -85,8 +55,8 @@
       <td>118 (50 patients)</td>
       <td>3.8TB</td>
     </tr>
-      <tr>
-      <td><em>MICCAI challenge<em>(2023)</td>
+    <tr>
+      <td><em>MICCAI challenge</em>(2023)</td>
       <td>
         <a href="https://acrobat.grand-challenge.org/"><strong>ACROBAT</strong></a><br>
       </td>
@@ -97,9 +67,8 @@
       <td>750 (1 H&E and 1-4 matched routine IHC)</td>
       <td>n/a</td>
     </tr>
-    </tr>
-      <tr>
-      <td><em>Optica<em>(December 2022)</td>
+    <tr>
+      <td><em>Optica</em>(December 2022)</td>
       <td>
         <a href="https://drive.google.com/file/d/1mjYYLMLYX5H5GK6XmmXt_3lPo_dmFuJE/view?pli=1"><strong>Data</strong></a><br>
         <a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-12-1605"><strong>[Paper]</strong></a>
@@ -111,9 +80,8 @@
       <td>Mouse liver: 8,  rat gliosarcoma: 14, human gliomas: 5</td> 
       <td>26 GB</td>
     </tr>
-    </tr>
-      <tr>
-      <td><em>Cell<em>(2022)</td>
+    <tr>
+      <td><em>Cell</em>(2022)</td>
       <td>
         <a href="https://github.com/labsyspharm/CRC_atlas_2022"><strong>3DCRC</strong></a><br>
         <a href="https://www.cell.com/cell/fulltext/S0092-8674(22)01571-9"><strong>[Paper]</strong></a>
@@ -125,8 +93,8 @@
       <td>1 (47 serial histological sections)</td>
       <td>2.1 TB</td>
     </tr>
-    </tr>
-      <td><em>PNAS<em>(2022)</td>
+    <tr>
+      <td><em>PNAS</em>(2022)</td>
       <td>
         <a href="https://zenodo.org/records/5658994#.YZKJWXso_mF"><strong>3d virtual histology of the human hippocampus</strong></a><br>
         <a href="https://www.pnas.org/doi/epdf/10.1073/pnas.2113835118"><strong>[Paper]</strong></a>
@@ -137,10 +105,9 @@
       <td>Human hippocampus tissue</td>
       <td>N/A</td>
       <td>64.8 GB</td>
-    <tr>
-</tr>
     </tr>
-      <td><em>eLife<em>(2021)</td>
+    <tr>
+      <td><em>eLife</em>(2021)</td>
       <td>
         <a href="https://zenodo.org/records/5658380"><strong>3D virtual Histopathology</strong></a><br>
         <a href="https://elifesciences.org/articles/71359"><strong>[Paper]</strong></a>
@@ -151,8 +118,9 @@
       <td>Cardiac Tissue from Covid-19 Patients</td>
       <td>6</td>
       <td>175.4 GB</td>
+    </tr>
     <tr>
-      <td><em>eLife<em>(2020)</td>
+      <td><em>eLife</em>(2020)</td>
       <td>
         <a href="https://zenodo.org/records/3892637"><strong>3D virtual pathohistology</strong></a><br>
         <a href="https://elifesciences.org/articles/60408"><strong>[Paper]</strong></a>
@@ -175,37 +143,25 @@
 
 ## Volumetric genomic data
 
-<div style="overflow-x: auto;">
-<table class="dataset-table">
-  <colgroup>
-    <col width="11%" style="width: 11%;">
-    <col width="11%" style="width: 11%;">
-    <col width="26%" class="title-col" style="width: 26%;">
-    <col width="12%" style="width: 12%;">
-    <col width="10%" style="width: 10%;">
-    <col width="13%" style="width: 13%;">
-    <col width="6%" style="width: 6%;">
-    <col width="11%" style="width: 11%;">
-    <col width="7%" style="width: 7%;">
-    <col width="5%" style="width: 5%;">
-  </colgroup>
+<div>
+<table width="1800">
   <thead>
     <tr>
-      <th>Journal / Date</th>
-      <th>Dataset</th>
-      <th>Title</th>
-      <th>Modality</th>
-      <th>Resolution</th>
-      <th>Organ</th>
-      <th>Volumes</th>
-      <th>Z-levels</th>
-      <th>Num. spots/cells</th>
-      <th>Size</th>
+      <th width="160">Journal / Date</th>
+      <th width="170">Dataset</th>
+      <th width="400">Title</th>
+      <th width="180">Modality</th>
+      <th width="160">Resolution</th>
+      <th width="220">Organ</th>
+      <th width="100">Volumes</th>
+      <th width="220">Z-levels</th>
+      <th width="130">Num. spots/cells</th>
+      <th width="60">Size</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><em>Nature Methods<em> (November 2025)</td>
+      <td><em>Nature Methods</em> (November 2025)</td>
       <td>
         <a href="https://zenodo.org/records/16783355"><strong>Deep-STARmap</strong></a><br>
         <a href="https://www.nature.com/articles/s41592-025-02867-0"><strong>[Paper]</strong></a>
@@ -219,9 +175,8 @@
       <td>cSCC: N/A cells,254 genes; Mouse brain: 198,675 cells, 1,017 genes</td>
       <td>2.1GB</td>
     </tr>
-     </tr>
-      <tr>
-      <td><em>Nature Methods<em> (September 2025)</td>
+    <tr>
+      <td><em>Nature Methods</em> (September 2025)</td>
       <td>
         <a href="https://zenodo.org/records/15230302"><strong>3Dniches</strong></a><br>
         <a href="https://www.nature.com/articles/s41592-025-02824-x"><strong>[Paper]</strong></a>
@@ -236,7 +191,7 @@
       <td>3.17TB</td>
     </tr>
     <tr>
-      <td><em>Nature Methods<em> (December 2025)</td>
+      <td><em>Nature Methods</em> (December 2025)</td>
       <td>
         <a href="https://figshare.com/articles/dataset/SpatialZ_Bridging_the_Dimensional_Gap_from_Planar_Spatial_Transcriptomics_to_3D_Cell_Atlases-processed_datasets/30418285"><strong>SpatialZ</strong></a><br>
         <a href="https://www.nature.com/articles/s41592-025-02969-9"><strong>[Paper]</strong></a>
@@ -251,7 +206,7 @@
       <td>30.5MB</td>
     </tr>
     <tr>
-      <td><em>Nature Metabolism<em> (March 2025)</td>
+      <td><em>Nature Metabolism</em> (March 2025)</td>
       <td>
         <a href="https://zenodo.org/records/14212427"><strong>MetaVision3D</strong></a><br>
         <a href="https://www.nature.com/articles/s42255-025-01242-9"><strong>[Paper]</strong></a>
@@ -266,7 +221,7 @@
       <td>3.3GB</td>
     </tr>
     <tr>
-      <td><em>Nature Cancer<em> (January 2022)</td>
+      <td><em>Nature Cancer</em> (January 2022)</td>
       <td>
         <a href="https://zenodo.org/records/4752030"><strong>3D IMC</strong></a><br>
         <a href="https://www.nature.com/articles/s43018-021-00301-w"><strong>[Paper]</strong></a>
@@ -290,37 +245,25 @@
 
 ## Volumetric morphological & genomic data 
 
-<div style="overflow-x: auto;">
-<table class="dataset-table">
-  <colgroup>
-    <col width="9%" style="width: 9%;">
-    <col width="10%" style="width: 10%;">
-    <col width="22%" class="title-col" style="width: 22%;">
-    <col width="10%" style="width: 10%;">
-    <col width="8%" style="width: 8%;">
-    <col width="8%" style="width: 8%;">
-    <col width="4%" style="width: 4%;">
-    <col width="20%" style="width: 20%;">
-    <col width="4%" style="width: 4%;">
-    <col width="5%" style="width: 5%;">
-  </colgroup>
+<div>
+<table width="1800">
   <thead>
     <tr>
-      <th>Journal / Date</th>
-      <th>Dataset</th>
-      <th>Title</th>
-      <th>Modality</th>
-      <th>Resolution</th>
-      <th>Organ</th>
-      <th>Volumes</th>
-      <th>Serial sections</th>
-      <th>Num. spots/cells</th>
-      <th>Size</th>
+      <th width="160">Journal / Date</th>
+      <th width="170">Dataset</th>
+      <th width="400">Title</th>
+      <th width="180">Modality</th>
+      <th width="150">Resolution</th>
+      <th width="140">Organ</th>
+      <th width="90">Volumes</th>
+      <th width="350">Serial sections</th>
+      <th width="100">Num. spots/cells</th>
+      <th width="60">Size</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><em>Nature<em> (October 2024)</td>
+      <td><em>Nature</em> (October 2024)</td>
       <td>
         <a href="https://humantumoratlas.org/explore?selectedFilters=%5B%7B%22group%22%3A%22AtlasName%22%2C%22value%22%3A%22HTAN+WUSTL%22%7D%5D&tab=file"><strong>2D3DTumorEvolution</strong></a><br>
         <a href="https://www.nature.com/articles/s41586-024-08087-4"><strong>[Paper]</strong></a>
@@ -335,7 +278,7 @@
       <td>N/A</td>
     </tr>
     <tr>
-      <td><em>Cell<em> (July 2024)</td>
+      <td><em>Cell</em> (July 2024)</td>
       <td>
         <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE251926"><strong>OpenST</strong></a><br>
         <a href="https://www.cell.com/cell/fulltext/S0092-8674(24)00636-6"><strong>[Paper]</strong></a>
@@ -350,7 +293,7 @@
       <td>2.2GB</td>
     </tr>
     <tr>
-      <td><em>Nature Communications<em> (February 2022)</td>
+      <td><em>Nature Communications</em> (February 2022)</td>
       <td>
         <a href="https://singlecell.broadinstitute.org/single_cell/study/SCP1414/3dst-ra#study-summary"><strong>3DST_RA</strong></a><br>
         <a href="https://www.nature.com/articles/s42003-022-03050-3"><strong>[Paper]</strong></a>
@@ -365,7 +308,7 @@
       <td>2.2GB (.gz format)</td>
     </tr>
     <tr>
-      <td><em>Nature Neuroscience<em> (March 2021)</td>
+      <td><em>Nature Neuroscience</em> (March 2021)</td>
       <td>
         <a href="http://spatial.libd.org/spatialLIBD/"><strong>Human prefrontal cortex</strong></a><br>
         <a href="https://www.nature.com/articles/s41593-020-00787-0"><strong>[Paper]</strong></a>
@@ -380,7 +323,7 @@
       <td>N/A</td>
     </tr>
     <tr>
-      <td><em>Nature Communications<em> (February 2021)</td>
+      <td><em>Nature Communications</em> (February 2021)</td>
       <td>
         <a href="https://zenodo.org/records/4751624"><strong>HER2+</strong></a><br>
         <a href="https://www.nature.com/articles/s41467-021-26271-2"><strong>[Paper]</strong></a>
@@ -395,7 +338,7 @@
       <td>629.6 MB</td>
     </tr>
     <tr>
-      <td><em>Cell<em> (December 2019)</td>
+      <td><em>Cell</em> (December 2019)</td>
       <td>
         <a href="https://data.mendeley.com/datasets/dgnysc3zn5/1"><strong>Human Heart</strong></a><br>
         <a href="https://www.cell.com/cell/fulltext/S0092-8674(19)31282-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867419312826%3Fshowall%3Dtrue"><strong>[Paper]</strong></a>
