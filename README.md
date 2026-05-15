@@ -1,6 +1,6 @@
 # 3DCPath-datasets: Compilation of publicly-available datasets in 3D pathology
 
-<style>
+<!-- <style>
   .dataset-table {
     min-width: 1500px;
     table-layout: fixed;
@@ -16,7 +16,7 @@
   .dataset-table .title-col {
     width: 26%;
   }
-</style>
+</style> -->
 
 ## Volumetric morphological/imaging data
 
