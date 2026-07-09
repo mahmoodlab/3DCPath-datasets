@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220" viewBox="0 0 360 220">
+  <defs>
+    <style>
+      .stroke {
+        stroke: #151515;
+        stroke-width: 8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+
+  <g>
+    <!-- left user -->
+    <circle class="stroke" cx="88" cy="75" r="31" fill="#ffffff"/>
+    <path class="stroke" d="M38 171 V143 C38 118 60 101 88 101 C116 101 138 118 138 143 V171 Z" fill="#34b7c7"/>
+
+    <!-- right user -->
+    <circle class="stroke" cx="272" cy="75" r="31" fill="#ffffff"/>
+    <path class="stroke" d="M222 171 V143 C222 118 244 101 272 101 C300 101 322 118 322 143 V171 Z" fill="#f0b63a"/>
+
+    <!-- center user -->
+    <circle class="stroke" cx="180" cy="58" r="42" fill="#ffffff"/>
+    <path class="stroke" d="M104 184 V151 C104 117 138 96 180 96 C222 96 256 117 256 151 V184 Z" fill="#ef5c6d"/>
+  </g>
+</svg>

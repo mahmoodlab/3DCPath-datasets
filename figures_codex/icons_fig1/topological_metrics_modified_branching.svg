@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
+  <defs>
+    <linearGradient id="vesselGray" x1="250" y1="670" x2="650" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8F9697" stop-opacity="0.55"/>
+      <stop offset="0.48" stop-color="#D8D8D5" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#7F8789" stop-opacity="0.55"/>
+    </linearGradient>
+    <filter id="softVesselShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#1A1A1A" flood-opacity="0.13"/>
+    </filter>
+    <filter id="nodeShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#111111" flood-opacity="0.28"/>
+    </filter>
+    <radialGradient id="collapsedRedNode" cx="34%" cy="28%" r="70%">
+      <stop offset="0" stop-color="#F18A86"/>
+      <stop offset="0.58" stop-color="#C73337"/>
+      <stop offset="1" stop-color="#7D141B"/>
+    </radialGradient>
+    <radialGradient id="truthBlueNode" cx="34%" cy="25%" r="75%">
+      <stop offset="0" stop-color="#6F82D6"/>
+      <stop offset="0.64" stop-color="#23328B"/>
+      <stop offset="1" stop-color="#101653"/>
+    </radialGradient>
+    <radialGradient id="collapsedRedHalo" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#B36A6A" stop-opacity="0.60"/>
+      <stop offset="1" stop-color="#6E4A4A" stop-opacity="0.10"/>
+    </radialGradient>
+    <radialGradient id="truthBlueHalo" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#697DAE" stop-opacity="0.50"/>
+      <stop offset="1" stop-color="#4F566F" stop-opacity="0.08"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="720" fill="#FFFFFF"/>
+
+  <text x="36" y="62" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#101010">b</text>
+  <text x="88" y="62" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="500" fill="#101010">Topological metrics</text>
+
+  <g id="modified-vessel-tree" transform="translate(18,10)" stroke-linecap="round" stroke-linejoin="round">
+    <g id="translucent-vessel-volume" fill="none" stroke="url(#vesselGray)" filter="url(#softVesselShadow)">
+      <path d="M 438 650 C 425 588 448 530 484 480 C 518 432 536 385 524 338 C 512 294 480 263 440 236 C 391 202 361 166 348 112" stroke-width="56" opacity="0.96"/>
+      <path d="M 484 480 C 421 455 361 420 308 366 C 257 314 211 294 151 301" stroke-width="48" opacity="0.82"/>
+      <path d="M 330 389 C 278 394 223 421 172 464" stroke-width="38" opacity="0.78"/>
+      <path d="M 308 366 C 272 323 253 276 244 219" stroke-width="38" opacity="0.82"/>
+      <path d="M 244 219 C 196 211 157 188 118 151" stroke-width="34" opacity="0.78"/>
+      <path d="M 244 219 C 236 164 245 119 270 78" stroke-width="34" opacity="0.78"/>
+      <path d="M 524 338 C 585 316 642 273 697 211" stroke-width="48" opacity="0.84"/>
+      <path d="M 612 294 C 651 334 688 371 733 405" stroke-width="40" opacity="0.78"/>
+      <path d="M 612 294 C 647 249 660 203 651 150" stroke-width="36" opacity="0.78"/>
+      <path d="M 697 211 C 741 212 785 230 830 263" stroke-width="34" opacity="0.72"/>
+      <path d="M 440 236 C 490 197 535 151 575 96" stroke-width="36" opacity="0.80"/>
+      <path d="M 398 207 C 357 240 316 257 267 253" stroke-width="32" opacity="0.72"/>
+    </g>
+
+    <g id="ground-truth-edges" fill="none" stroke="#1E2379" stroke-width="4.5" opacity="0.90">
+      <path d="M 438 650 L 466 563 L 484 480 L 520 409 L 524 338 L 500 288 L 440 236 L 398 207 L 348 112"/>
+      <path d="M 484 480 L 410 445 L 330 389 L 251 338 L 151 301"/>
+      <path d="M 330 389 L 250 417 L 172 464"/>
+      <path d="M 330 389 L 290 308 L 244 219 L 118 151"/>
+      <path d="M 244 219 L 270 78"/>
+      <path d="M 524 338 L 612 294 L 697 211 L 830 263"/>
+      <path d="M 612 294 L 733 405"/>
+      <path d="M 612 294 L 651 150"/>
+      <path d="M 440 236 L 510 166 L 575 96"/>
+      <path d="M 398 207 L 267 253"/>
+    </g>
+
+    <g id="collapsed-skeleton-edges" fill="none" stroke="#A71924" stroke-width="5.5" opacity="0.96">
+      <path d="M 438 650 L 466 563 L 484 480 L 520 409 L 524 338 L 500 288 L 440 236 L 348 112"/>
+      <path d="M 484 480 L 410 445 L 330 389 L 251 338 L 151 301"/>
+      <path d="M 330 389 L 250 417 L 172 464"/>
+      <path d="M 330 389 L 244 219 L 118 151"/>
+      <path d="M 244 219 L 270 78"/>
+      <path d="M 524 338 L 612 294 L 697 211 L 830 263"/>
+      <path d="M 612 294 L 733 405"/>
+      <path d="M 612 294 L 651 150"/>
+      <path d="M 440 236 L 510 166 L 575 96"/>
+      <path d="M 398 207 L 267 253"/>
+    </g>
+
+    <g id="soft-collapsed-node-halos" fill="url(#collapsedRedHalo)" opacity="0.85">
+      <ellipse cx="438" cy="650" rx="24" ry="27"/>
+      <ellipse cx="466" cy="563" rx="22" ry="24"/>
+      <ellipse cx="484" cy="480" rx="26" ry="27"/>
+      <ellipse cx="520" cy="409" rx="22" ry="24"/>
+      <ellipse cx="524" cy="338" rx="26" ry="27"/>
+      <ellipse cx="500" cy="288" rx="22" ry="24"/>
+      <ellipse cx="440" cy="236" rx="26" ry="27"/>
+      <ellipse cx="348" cy="112" rx="23" ry="25"/>
+      <ellipse cx="330" cy="389" rx="27" ry="28"/>
+      <ellipse cx="244" cy="219" rx="23" ry="25"/>
+      <ellipse cx="612" cy="294" rx="26" ry="27"/>
+      <ellipse cx="697" cy="211" rx="23" ry="25"/>
+    </g>
+
+    <g id="collapsed-skeleton-nodes" filter="url(#nodeShadow)">
+      <circle cx="438" cy="650" r="12" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="466" cy="563" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="484" cy="480" r="14" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.4"/>
+      <circle cx="520" cy="409" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="524" cy="338" r="14" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.4"/>
+      <circle cx="500" cy="288" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="440" cy="236" r="14" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.4"/>
+      <circle cx="348" cy="112" r="11" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="410" cy="445" r="9.5" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2"/>
+      <circle cx="330" cy="389" r="14" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.4"/>
+      <circle cx="251" cy="338" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="151" cy="301" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="172" cy="464" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="244" cy="219" r="11" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="118" cy="151" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="270" cy="78" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="612" cy="294" r="14" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.4"/>
+      <circle cx="697" cy="211" r="11" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="830" cy="263" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="733" cy="405" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="651" cy="150" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="575" cy="96" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <circle cx="267" cy="253" r="10" fill="url(#collapsedRedNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <g fill="#FFD1C9" opacity="0.55">
+        <circle cx="432" cy="642" r="4"/>
+        <circle cx="477" cy="469" r="4.5"/>
+        <circle cx="516" cy="330" r="4.5"/>
+        <circle cx="433" cy="228" r="4.5"/>
+        <circle cx="323" cy="381" r="4.5"/>
+        <circle cx="605" cy="286" r="4.5"/>
+      </g>
+    </g>
+
+    <g id="ground-truth-nodes" filter="url(#nodeShadow)">
+      <g fill="url(#truthBlueHalo)" opacity="0.80">
+        <ellipse cx="466" cy="563" rx="18" ry="20"/>
+        <ellipse cx="520" cy="409" rx="18" ry="20"/>
+        <ellipse cx="398" cy="207" rx="18" ry="20"/>
+        <ellipse cx="290" cy="308" rx="18" ry="20"/>
+        <ellipse cx="510" cy="166" rx="18" ry="20"/>
+        <ellipse cx="250" cy="417" rx="18" ry="20"/>
+      </g>
+      <path d="M 466 548 L 481 574 L 451 574 Z" fill="url(#truthBlueNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <path d="M 520 394 L 535 420 L 505 420 Z" fill="url(#truthBlueNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <path d="M 398 192 L 413 218 L 383 218 Z" fill="url(#truthBlueNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <path d="M 290 293 L 305 319 L 275 319 Z" fill="url(#truthBlueNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <path d="M 510 151 L 525 177 L 495 177 Z" fill="url(#truthBlueNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <path d="M 250 402 L 265 428 L 235 428 Z" fill="url(#truthBlueNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <path d="M 651 135 L 666 161 L 636 161 Z" fill="url(#truthBlueNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+      <path d="M 733 390 L 748 416 L 718 416 Z" fill="url(#truthBlueNode)" stroke="#FFFFFF" stroke-width="2.2"/>
+    </g>
+  </g>
+</svg>

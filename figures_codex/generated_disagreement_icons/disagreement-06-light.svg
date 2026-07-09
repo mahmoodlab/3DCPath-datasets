@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <title>Disagreement icon, light unequal sign</title>
+  <g fill="none" stroke="#2f2f2f" stroke-width="76" stroke-linecap="round">
+    <path d="M160 392H864"/>
+    <path d="M160 632H864"/>
+    <path d="M320 760L704 264"/>
+  </g>
+</svg>

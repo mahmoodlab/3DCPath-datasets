@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <g id="simple-agent-icon" fill="none" stroke="#111111" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Antennae -->
+    <path d="M 198 154 L 176 96" stroke-width="26"/>
+    <path d="M 314 154 L 336 96" stroke-width="26"/>
+    <circle cx="172" cy="84" r="24" fill="#111111" stroke="none"/>
+    <circle cx="340" cy="84" r="24" fill="#111111" stroke="none"/>
+
+    <!-- Side tabs -->
+    <path d="M 116 230 C 88 230 68 252 68 280 C 68 308 88 330 116 330" stroke-width="22"/>
+    <path d="M 396 230 C 424 230 444 252 444 280 C 444 308 424 330 396 330" stroke-width="22"/>
+
+    <!-- Head -->
+    <rect x="104" y="150" width="304" height="244" rx="86" fill="#FFFFFF" stroke-width="26"/>
+
+    <!-- Visor -->
+    <rect x="160" y="226" width="192" height="74" rx="32" fill="#111111" stroke="none"/>
+  </g>
+</svg>

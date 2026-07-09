@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2120" height="768" viewBox="0 0 2120 768">
+  <defs>
+    <style>
+      .label {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        fill: #232323;
+      }
+      .outline {
+        fill: none;
+        stroke: #3a3a3a;
+        stroke-width: 8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .soft {
+        fill: none;
+        stroke: #bcbcbc;
+        stroke-width: 8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .green {
+        fill: none;
+        stroke: #4b8239;
+        stroke-width: 16;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .red {
+        stroke: #bd3146;
+      }
+      .red-fill {
+        fill: #ee98a3;
+        stroke: #bd3146;
+        stroke-width: 6;
+      }
+      .red-dot {
+        fill: #c92842;
+      }
+      .green-fill {
+        fill: #4b8239;
+      }
+      .gray-fill {
+        fill: #c8c8c8;
+      }
+      .dot-ring {
+        fill: none;
+        stroke: #3a3a3a;
+        stroke-width: 8;
+        stroke-linecap: round;
+        stroke-dasharray: 1 20;
+      }
+    </style>
+  </defs>
+
+  <g id="present">
+    <text class="label" x="512" y="150" font-size="94" text-anchor="middle">Micrometastasis</text>
+    <text class="label" x="512" y="272" font-size="94" text-anchor="middle">present</text>
+
+    <g transform="translate(190 390)">
+      <circle class="outline" cx="0" cy="120" r="126"/>
+      <g>
+        <circle class="red-fill" cx="0" cy="120" r="30"/>
+        <circle class="red-fill" cx="-42" cy="84" r="29"/>
+        <circle class="red-fill" cx="44" cy="86" r="31"/>
+        <circle class="red-fill" cx="-53" cy="153" r="29"/>
+        <circle class="red-fill" cx="58" cy="146" r="30"/>
+        <circle class="red-fill" cx="-5" cy="190" r="29"/>
+        <circle class="red-fill" cx="0" cy="55" r="28"/>
+        <circle class="red-fill" cx="-83" cy="126" r="24"/>
+        <circle class="red-fill" cx="90" cy="121" r="24"/>
+        <circle class="red-dot" cx="0" cy="120" r="12"/>
+        <circle class="red-dot" cx="-42" cy="84" r="10"/>
+        <circle class="red-dot" cx="44" cy="86" r="10"/>
+        <circle class="red-dot" cx="-53" cy="153" r="10"/>
+        <circle class="red-dot" cx="58" cy="146" r="10"/>
+        <circle class="red-dot" cx="-5" cy="190" r="10"/>
+        <circle class="red-dot" cx="0" cy="55" r="9"/>
+        <circle class="red-dot" cx="-83" cy="126" r="8"/>
+        <circle class="red-dot" cx="90" cy="121" r="8"/>
+        <circle class="red-dot" cx="-117" cy="112" r="8"/>
+        <circle class="red-dot" cx="-86" cy="54" r="7"/>
+        <circle class="red-dot" cx="-71" cy="218" r="7"/>
+        <circle class="red-dot" cx="78" cy="219" r="7"/>
+        <circle class="red-dot" cx="118" cy="87" r="7"/>
+        <circle class="red-dot" cx="0" cy="22" r="8"/>
+      </g>
+    </g>
+
+    <g transform="translate(520 382)">
+      <path class="outline" d="M86 22 L165 101"/>
+      <path class="outline" d="M63 44 L142 123"/>
+      <rect class="outline" x="20" y="84" width="58" height="32" transform="rotate(-45 49 100)"/>
+      <rect class="outline" x="141" y="-3" width="32" height="58" transform="rotate(-45 157 26)"/>
+      <circle class="outline" cx="119" cy="122" r="34"/>
+      <path class="outline" d="M148 142 C174 171 172 230 132 270 C102 300 62 297 34 270"/>
+      <path class="outline" d="M0 250 H72 L97 281 H182"/>
+      <path class="outline" d="M16 285 H184 V318 H0 V303 C0 293 7 285 16 285 Z"/>
+      <path class="outline red" d="M31 303 H51"/>
+      <circle class="red-dot" cx="119" cy="122" r="13"/>
+      <circle class="red-dot" cx="96" cy="282" r="7"/>
+    </g>
+
+    <g transform="translate(792 390)">
+      <circle class="outline" cx="95" cy="115" r="100"/>
+      <path class="dot-ring" d="M166 42 C204 78 218 136 197 188"/>
+      <rect class="outline" x="169" y="182" width="54" height="116" rx="18" transform="rotate(-45 196 240)"/>
+      <circle class="red-fill" cx="95" cy="115" r="24" opacity="0.9"/>
+      <circle class="red-fill" cx="48" cy="145" r="22" opacity="0.88"/>
+      <circle class="red-fill" cx="138" cy="129" r="21" opacity="0.88"/>
+      <circle class="red-fill" cx="102" cy="180" r="22" opacity="0.88"/>
+      <circle class="red-dot" cx="95" cy="115" r="10"/>
+      <circle class="red-dot" cx="48" cy="145" r="9"/>
+      <circle class="red-dot" cx="138" cy="129" r="9"/>
+      <circle class="red-dot" cx="102" cy="180" r="9"/>
+    </g>
+  </g>
+
+  <g id="absent" transform="translate(1024 0)">
+    <text class="label" x="512" y="150" font-size="94" text-anchor="middle">Micrometastasis</text>
+    <text class="label" x="512" y="272" font-size="94" text-anchor="middle">absent</text>
+
+    <g transform="translate(190 390)">
+      <circle class="outline" cx="0" cy="120" r="126"/>
+      <g opacity="0.95">
+        <circle class="soft" cx="0" cy="120" r="30"/>
+        <circle class="soft" cx="-42" cy="84" r="29"/>
+        <circle class="soft" cx="44" cy="86" r="31"/>
+        <circle class="soft" cx="-53" cy="153" r="29"/>
+        <circle class="soft" cx="58" cy="146" r="30"/>
+        <circle class="soft" cx="-5" cy="190" r="29"/>
+        <circle class="soft" cx="0" cy="55" r="28"/>
+        <circle class="soft" cx="-83" cy="126" r="24"/>
+        <circle class="soft" cx="90" cy="121" r="24"/>
+        <circle class="gray-fill" cx="0" cy="120" r="10"/>
+        <circle class="gray-fill" cx="-42" cy="84" r="9"/>
+        <circle class="gray-fill" cx="44" cy="86" r="9"/>
+        <circle class="gray-fill" cx="-53" cy="153" r="9"/>
+        <circle class="gray-fill" cx="58" cy="146" r="9"/>
+        <circle class="gray-fill" cx="-5" cy="190" r="9"/>
+        <circle class="gray-fill" cx="0" cy="55" r="8"/>
+      </g>
+      <path class="green" d="M-37 128 L-2 163 L64 87"/>
+    </g>
+
+    <g transform="translate(520 382)">
+      <path class="outline" d="M86 22 L165 101"/>
+      <path class="outline" d="M63 44 L142 123"/>
+      <rect class="outline" x="20" y="84" width="58" height="32" transform="rotate(-45 49 100)"/>
+      <rect class="outline" x="141" y="-3" width="32" height="58" transform="rotate(-45 157 26)"/>
+      <circle class="outline" cx="119" cy="122" r="34"/>
+      <path class="outline" d="M148 142 C174 171 172 230 132 270 C102 300 62 297 34 270"/>
+      <path class="outline" d="M0 250 H72 L97 281 H182"/>
+      <path class="outline" d="M16 285 H184 V318 H0 V303 C0 293 7 285 16 285 Z"/>
+      <path class="green" d="M31 303 H160"/>
+      <circle class="green-fill" cx="119" cy="122" r="13"/>
+      <circle class="green-fill" cx="96" cy="282" r="7"/>
+    </g>
+
+    <g transform="translate(792 390)">
+      <circle class="outline" cx="95" cy="115" r="100"/>
+      <path class="dot-ring" d="M166 42 C204 78 218 136 197 188"/>
+      <rect class="outline" x="169" y="182" width="54" height="116" rx="18" transform="rotate(-45 196 240)"/>
+      <path class="green" d="M43 113 L82 153 L153 74"/>
+    </g>
+  </g>
+</svg>

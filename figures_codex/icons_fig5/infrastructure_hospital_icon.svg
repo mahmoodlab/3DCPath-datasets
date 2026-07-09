@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="310" viewBox="0 0 420 310">
+  <defs>
+    <style>
+      .blue-dark { fill: #6f7b94; }
+      .blue-mid { fill: #8e9bb4; }
+      .blue-light { fill: #b9c0d1; }
+      .window { fill: #d6dcea; }
+      .red { fill: #d66868; }
+      .white { fill: #ffffff; }
+    </style>
+  </defs>
+  <g>
+    <path class="blue-mid" d="M30 96 H78 V76 H126 V58 H175 V36 H222 V14 H320 V258 H30 Z"/>
+    <path class="blue-dark" d="M30 258 L260 38 H320 V258 Z" opacity="0.88"/>
+    <rect class="blue-light" x="260" y="38" width="108" height="220"/>
+    <rect class="blue-mid" x="255" y="243" width="119" height="15"/>
+
+    <rect class="window" x="43" y="122" width="23" height="23"/>
+    <rect class="window" x="84" y="122" width="23" height="23"/>
+    <rect class="window" x="125" y="92" width="23" height="23"/>
+    <rect class="window" x="166" y="92" width="23" height="23"/>
+    <rect class="window" x="207" y="92" width="23" height="23"/>
+
+    <rect class="window" x="43" y="153" width="23" height="23"/>
+    <rect class="window" x="84" y="153" width="23" height="23"/>
+    <rect class="window" x="125" y="122" width="23" height="23"/>
+    <rect class="window" x="166" y="122" width="23" height="23"/>
+    <rect class="window" x="207" y="122" width="23" height="23"/>
+
+    <rect class="window" x="43" y="184" width="23" height="23"/>
+    <rect class="window" x="84" y="184" width="23" height="23"/>
+    <rect class="window" x="125" y="153" width="23" height="23"/>
+    <rect class="window" x="166" y="153" width="23" height="23"/>
+    <rect class="window" x="207" y="153" width="23" height="23"/>
+
+    <rect class="window" x="43" y="215" width="23" height="23"/>
+    <rect class="window" x="84" y="215" width="23" height="23"/>
+    <rect class="window" x="125" y="184" width="23" height="23"/>
+    <rect class="window" x="166" y="184" width="23" height="23"/>
+
+    <circle class="white" cx="315" cy="107" r="30"/>
+    <rect class="red" x="307" y="84" width="16" height="46"/>
+    <rect class="red" x="292" y="99" width="46" height="16"/>
+  </g>
+</svg>

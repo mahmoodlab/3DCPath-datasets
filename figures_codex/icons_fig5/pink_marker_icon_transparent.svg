@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ef4c8b"/>
+      <stop offset="52%" stop-color="#d72e75"/>
+      <stop offset="100%" stop-color="#a91f5d"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4c4f52"/>
+      <stop offset="100%" stop-color="#1f2224"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)" transform="rotate(-37 320 320)">
+    <rect x="202" y="254" width="300" height="104" rx="8" fill="url(#body)"/>
+    <path d="M223 254 H478 L457 358 H202 Z" fill="#bf2a69" opacity="0.28"/>
+    <path d="M228 272 H450" stroke="#ff72a5" stroke-width="16" stroke-linecap="round" opacity="0.42"/>
+
+    <rect x="488" y="244" width="46" height="124" rx="12" fill="url(#dark)"/>
+    <path d="M501 251 C520 260 529 285 528 310 C527 339 514 360 494 365 L534 353 L534 257 Z" fill="#111315" opacity="0.35"/>
+
+    <rect x="168" y="248" width="42" height="116" rx="9" fill="url(#dark)"/>
+    <path d="M168 264 L112 289 C84 302 63 323 50 352 L37 382 L168 349 Z" fill="url(#dark)"/>
+    <path d="M49 352 L12 368 L0 408 L37 393 Z" fill="#c7256b"/>
+    <path d="M62 343 C91 320 119 304 164 292" stroke="#707477" stroke-width="14" stroke-linecap="round" opacity="0.22"/>
+    <path d="M174 248 L210 254 L210 358 L174 364 Z" fill="#202326" opacity="0.38"/>
+  </g>
+</svg>

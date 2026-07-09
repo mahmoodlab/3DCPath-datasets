@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+  <defs>
+    <style>
+      .region {
+        fill: none;
+        stroke-width: 120;
+        stroke-linecap: butt;
+      }
+      .inner-hole {
+        fill: #ffffff;
+        stroke: #e9e3dc;
+        stroke-width: 6;
+      }
+    </style>
+  </defs>
+
+  <!-- Four regions, one at each quadrant of the circumference. -->
+  <path class="region" stroke="#cf6f69" d="M 390.6 142.2 A 220 220 0 0 1 577.9 329.4"/>
+  <path class="region" stroke="#e6ad35" d="M 577.9 390.6 A 220 220 0 0 1 390.6 577.8"/>
+  <path class="region" stroke="#8b77b8" d="M 329.4 577.8 A 220 220 0 0 1 142.2 390.6"/>
+  <path class="region" stroke="#69aa78" d="M 142.2 329.4 A 220 220 0 0 1 329.4 142.2"/>
+
+  <circle class="inner-hole" cx="360" cy="360" r="130"/>
+</svg>

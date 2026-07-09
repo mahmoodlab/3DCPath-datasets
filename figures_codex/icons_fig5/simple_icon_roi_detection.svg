@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <style>
+      .edge{fill:none;stroke:#343434;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .thin{fill:none;stroke:#343434;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <circle class="edge" cx="104" cy="101" r="57" fill="#f7f7f7"/>
+  <rect class="edge" x="151" y="145" width="31" height="70" rx="12" transform="rotate(-45 166.5 180)"/>
+  <circle cx="92" cy="93" r="12" fill="#e88498" stroke="#c63a49" stroke-width="5"/>
+  <circle cx="123" cy="96" r="10" fill="#e88498" stroke="#c63a49" stroke-width="5"/>
+  <circle cx="108" cy="123" r="9" fill="#e88498" stroke="#c63a49" stroke-width="5"/>
+  <path class="thin" d="M70 101 H88 M120 101 H138 M104 67 V85 M104 117 V135"/>
+</svg>

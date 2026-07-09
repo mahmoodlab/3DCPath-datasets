@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+  <defs>
+    <style>
+      .main {
+        font-family: Arial Black, Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        fill: #000000;
+        letter-spacing: -8px;
+      }
+      .sub {
+        font-family: Arial Black, Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        fill: #000000;
+        letter-spacing: 5px;
+      }
+    </style>
+  </defs>
+  <text class="main" x="800" y="315" text-anchor="middle" font-size="375">HTAN</text>
+  <text class="sub" x="800" y="438" text-anchor="middle" font-size="62">HUMAN TUMOR ATLAS NETWORK</text>
+</svg>

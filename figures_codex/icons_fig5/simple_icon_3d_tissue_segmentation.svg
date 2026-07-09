@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <style>
+      .edge{fill:#ffffff;stroke:#151515;stroke-width:4.8;stroke-linecap:round;stroke-linejoin:round}
+      .line{fill:none;stroke:#151515;stroke-width:3.9;stroke-linecap:round;stroke-linejoin:round}
+      .nucleus{fill:none;stroke:#565656;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+      .speck{fill:#8b8b8b;opacity:0.42}
+      .pink{fill:#f3a2b2;stroke:#151515;stroke-width:3.9;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+
+  <!-- Cube faces -->
+  <polygon class="edge" points="43,72 90,44 172,44 204,75 158,105 77,105"/>
+  <polygon class="edge" points="43,72 77,105 77,184 43,153"/>
+  <polygon class="edge" points="77,105 158,105 204,75 204,153 158,184 77,184"/>
+
+  <!-- Top face cell boundaries -->
+  <path class="line" d="M91 44 C92 60 82 65 70 72"/>
+  <path class="line" d="M128 44 C120 58 129 70 150 70"/>
+  <path class="line" d="M159 46 C153 60 164 70 191 70"/>
+  <path class="line" d="M85 82 C101 70 113 79 122 91"/>
+  <path class="line" d="M122 91 C132 82 144 82 158 105"/>
+
+  <!-- Front face cell boundaries -->
+  <path class="line" d="M77 130 C94 117 104 139 119 130 C133 122 143 108 158 116"/>
+  <path class="line" d="M77 158 C94 148 101 175 119 165 C134 157 144 176 158 165"/>
+  <path class="line" d="M116 105 C111 129 119 156 112 184"/>
+  <path class="line" d="M43 105 C57 96 66 116 77 105"/>
+  <path class="line" d="M43 135 C57 124 65 149 77 142"/>
+
+  <!-- Right face cell boundaries -->
+  <path class="line" d="M158 125 C176 110 188 132 204 119"/>
+  <path class="line" d="M158 159 C174 145 187 170 204 157"/>
+  <path class="line" d="M178 92 C171 112 181 137 174 184"/>
+
+  <!-- Pink segmented cells -->
+  <ellipse class="pink" cx="103" cy="145" rx="17" ry="12" transform="rotate(-10 103 145)"/>
+  <ellipse class="pink" cx="144" cy="151" rx="16" ry="12" transform="rotate(15 144 151)"/>
+
+  <!-- Nuclei/unstained cells -->
+  <ellipse class="nucleus" cx="76" cy="80" rx="12" ry="6" transform="rotate(-12 76 80)"/>
+  <ellipse class="nucleus" cx="130" cy="75" rx="11" ry="6" transform="rotate(7 130 75)"/>
+  <ellipse class="nucleus" cx="61" cy="118" rx="9" ry="5" transform="rotate(-28 61 118)"/>
+  <ellipse class="nucleus" cx="94" cy="170" rx="10" ry="6" transform="rotate(-30 94 170)"/>
+  <ellipse class="nucleus" cx="131" cy="125" rx="8" ry="6" transform="rotate(20 131 125)"/>
+  <ellipse class="nucleus" cx="184" cy="111" rx="11" ry="6" transform="rotate(-38 184 111)"/>
+  <ellipse class="nucleus" cx="180" cy="165" rx="10" ry="6" transform="rotate(-42 180 165)"/>
+  <ellipse class="nucleus" cx="58" cy="160" rx="8" ry="6" transform="rotate(20 58 160)"/>
+
+  <circle cx="103" cy="145" r="4.5" fill="#c63a49"/>
+  <circle cx="144" cy="151" r="4.2" fill="#c63a49"/>
+
+  <!-- Sparse texture speckles -->
+  <circle class="speck" cx="103" cy="62" r="1.2"/>
+  <circle class="speck" cx="145" cy="58" r="1.1"/>
+  <circle class="speck" cx="171" cy="84" r="1.2"/>
+  <circle class="speck" cx="91" cy="116" r="1.2"/>
+  <circle class="speck" cx="139" cy="116" r="1.1"/>
+  <circle class="speck" cx="57" cy="96" r="1.1"/>
+  <circle class="speck" cx="187" cy="135" r="1.2"/>
+  <circle class="speck" cx="126" cy="171" r="1.1"/>
+  <circle class="speck" cx="63" cy="143" r="1.1"/>
+</svg>

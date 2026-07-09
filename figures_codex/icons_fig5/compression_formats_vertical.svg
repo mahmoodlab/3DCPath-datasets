@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1254" height="1254" viewBox="0 0 1254 1254" role="img" aria-label="Compression formats icon">
+  <defs>
+    <style>
+      .outline{stroke:#587fa8;stroke-width:8;stroke-linejoin:round;stroke-linecap:round}
+      .grid{stroke:#6f93bb;stroke-width:4;stroke-linecap:round;fill:none}
+      .soft{stroke:#6f93bb;stroke-width:5;stroke-linecap:round;fill:none;opacity:.72}
+      .top{fill:#edf4fb}
+      .left{fill:#dceaf7}
+      .right{fill:#a9c4df}
+      .mid{fill:#b9d2ea}
+      .accent{fill:#8fb5d9;stroke:#587fa8;stroke-width:5;stroke-linejoin:round;stroke-linecap:round}
+    </style>
+  </defs>
+
+  <g id="large-data-cube">
+    <polygon class="top outline" points="352,151 628,62 903,151 626,249"/>
+    <polygon class="left outline" points="352,151 626,249 626,559 352,458"/>
+    <polygon class="right outline" points="626,249 903,151 903,451 626,559"/>
+
+    <path class="grid" d="M407 132L682 230"/>
+    <path class="grid" d="M462 114L737 211"/>
+    <path class="grid" d="M518 96L793 192"/>
+    <path class="grid" d="M573 78L848 173"/>
+    <path class="grid" d="M407 170L683 82"/>
+    <path class="grid" d="M462 190L738 101"/>
+    <path class="grid" d="M517 210L793 121"/>
+    <path class="grid" d="M572 229L848 141"/>
+
+    <path class="grid" d="M352 228L626 329L903 223"/>
+    <path class="grid" d="M352 305L626 407L903 298"/>
+    <path class="grid" d="M352 382L626 484L903 374"/>
+
+    <path class="grid" d="M407 171L407 478"/>
+    <path class="grid" d="M462 191L462 498"/>
+    <path class="grid" d="M517 211L517 518"/>
+    <path class="grid" d="M572 230L572 538"/>
+
+    <path class="grid" d="M682 230L682 537"/>
+    <path class="grid" d="M737 211L737 515"/>
+    <path class="grid" d="M793 192L793 493"/>
+    <path class="grid" d="M848 173L848 472"/>
+
+    <path class="soft" d="M360 228L626 329L895 226"/>
+    <path class="soft" d="M360 305L626 407L895 301"/>
+    <path class="soft" d="M360 382L626 484L895 377"/>
+  </g>
+
+  <g id="compression-symbol">
+    <circle class="accent" cx="556" cy="626" r="10"/>
+    <circle class="accent" cx="593" cy="626" r="10"/>
+    <circle class="accent" cx="630" cy="626" r="10"/>
+    <circle class="accent" cx="667" cy="626" r="10"/>
+    <circle class="accent" cx="704" cy="626" r="10"/>
+
+    <circle class="accent" cx="565" cy="658" r="9"/>
+    <circle class="accent" cx="599" cy="658" r="9"/>
+    <circle class="accent" cx="633" cy="658" r="9"/>
+    <circle class="accent" cx="667" cy="658" r="9"/>
+    <circle class="accent" cx="701" cy="658" r="9"/>
+
+    <circle class="accent" cx="576" cy="690" r="8"/>
+    <circle class="accent" cx="604" cy="690" r="8"/>
+    <circle class="accent" cx="632" cy="690" r="8"/>
+    <circle class="accent" cx="660" cy="690" r="8"/>
+    <circle class="accent" cx="688" cy="690" r="8"/>
+
+    <circle class="accent" cx="586" cy="721" r="7"/>
+    <circle class="accent" cx="610" cy="721" r="7"/>
+    <circle class="accent" cx="634" cy="721" r="7"/>
+    <circle class="accent" cx="658" cy="721" r="7"/>
+    <circle class="accent" cx="682" cy="721" r="7"/>
+
+    <rect class="accent" x="588" y="747" width="90" height="14" rx="7"/>
+    <rect class="accent" x="596" y="777" width="74" height="14" rx="7"/>
+    <rect class="accent" x="603" y="806" width="60" height="14" rx="7"/>
+    <path class="accent" d="M617 834H646V859H665L632 894L598 859H617Z"/>
+  </g>
+
+  <g id="small-compressed-cube">
+    <polygon class="top outline" points="509,943 626,901 744,943 626,988"/>
+    <polygon class="left outline" points="509,943 626,988 626,1196 509,1148"/>
+    <polygon class="right outline" points="626,988 744,943 744,1149 626,1196"/>
+
+    <path class="grid" d="M548 929L666 973"/>
+    <path class="grid" d="M587 915L705 958"/>
+    <path class="grid" d="M548 958L666 916"/>
+    <path class="grid" d="M587 973L705 930"/>
+
+    <path class="grid" d="M509 1012L626 1058L744 1010"/>
+    <path class="grid" d="M509 1081L626 1127L744 1079"/>
+
+    <path class="grid" d="M548 958L548 1164"/>
+    <path class="grid" d="M587 973L587 1180"/>
+    <path class="grid" d="M666 973L666 1180"/>
+    <path class="grid" d="M705 958L705 1165"/>
+  </g>
+</svg>

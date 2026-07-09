@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+  <defs>
+    <linearGradient id="branchVolume" x1="120" y1="420" x2="620" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B7B9BA" stop-opacity="0.52"/>
+      <stop offset="0.55" stop-color="#E0E0E0" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#9CA3A8" stop-opacity="0.56"/>
+    </linearGradient>
+    <filter id="lightShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#222222" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="520" fill="#FFFFFF"/>
+
+  <!-- Main skeletonized vessel volume -->
+  <g id="volume-with-skeleton" transform="translate(35,20)" stroke-linecap="round" stroke-linejoin="round">
+    <g id="translucent-vessel-volume" fill="none" stroke="url(#branchVolume)" stroke-width="36" opacity="0.95" filter="url(#lightShadow)">
+      <path d="M 110 420 C 160 350 220 315 285 285 C 345 257 405 215 455 155 C 485 120 512 84 538 48"/>
+      <path d="M 285 285 C 245 248 222 205 203 158"/>
+      <path d="M 285 285 C 255 335 220 382 170 438"/>
+      <path d="M 405 215 C 480 224 535 204 590 160"/>
+      <path d="M 455 155 C 447 110 427 78 398 43"/>
+      <path d="M 455 155 C 520 112 575 86 650 78"/>
+      <path d="M 405 215 C 468 270 530 318 600 368"/>
+      <path d="M 345 257 C 315 225 287 190 258 145"/>
+      <path d="M 220 315 C 176 300 138 275 102 242"/>
+      <path d="M 512 84 C 548 126 580 129 622 116"/>
+    </g>
+
+    <g id="red-centerline-skeleton" fill="none" stroke="#B84B52" stroke-width="4.5" opacity="0.95">
+      <path d="M 110 420 C 160 350 220 315 285 285 C 345 257 405 215 455 155 C 485 120 512 84 538 48"/>
+      <path d="M 285 285 C 245 248 222 205 203 158"/>
+      <path d="M 285 285 C 255 335 220 382 170 438"/>
+      <path d="M 405 215 C 480 224 535 204 590 160"/>
+      <path d="M 455 155 C 447 110 427 78 398 43"/>
+      <path d="M 455 155 C 520 112 575 86 650 78"/>
+      <path d="M 405 215 C 468 270 530 318 600 368"/>
+      <path d="M 345 257 C 315 225 287 190 258 145"/>
+      <path d="M 220 315 C 176 300 138 275 102 242"/>
+      <path d="M 512 84 C 548 126 580 129 622 116"/>
+    </g>
+
+    <g id="blue-graph-nodes" fill="#18206D" stroke="#FFFFFF" stroke-width="2.5">
+      <circle cx="110" cy="420" r="9"/>
+      <circle cx="220" cy="315" r="9"/>
+      <circle cx="285" cy="285" r="11"/>
+      <circle cx="345" cy="257" r="9"/>
+      <circle cx="405" cy="215" r="11"/>
+      <circle cx="455" cy="155" r="10"/>
+      <circle cx="512" cy="84" r="9"/>
+      <circle cx="538" cy="48" r="9"/>
+      <circle cx="203" cy="158" r="9"/>
+      <circle cx="170" cy="438" r="9"/>
+      <circle cx="590" cy="160" r="9"/>
+      <circle cx="398" cy="43" r="9"/>
+      <circle cx="650" cy="78" r="9"/>
+      <circle cx="600" cy="368" r="9"/>
+      <circle cx="258" cy="145" r="9"/>
+      <circle cx="102" cy="242" r="9"/>
+      <circle cx="622" cy="116" r="9"/>
+    </g>
+  </g>
+
+  <!-- Zoom inset -->
+  <g id="zoom-inset" transform="translate(515,278)">
+    <rect x="0" y="0" width="250" height="155" fill="#FFFFFF" stroke="#222222" stroke-width="3"/>
+    <g transform="translate(24,26)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 20 80 C 70 55 112 50 168 28" fill="none" stroke="#B7B9BA" stroke-width="42" opacity="0.55"/>
+      <path d="M 20 80 C 70 55 112 50 168 28" fill="none" stroke="#B84B52" stroke-width="4.5"/>
+      <path d="M 105 52 C 130 82 151 98 202 104" fill="none" stroke="#B7B9BA" stroke-width="30" opacity="0.50"/>
+      <path d="M 105 52 C 130 82 151 98 202 104" fill="none" stroke="#B84B52" stroke-width="4"/>
+      <circle cx="20" cy="80" r="7" fill="#111111"/>
+      <circle cx="105" cy="52" r="7" fill="#111111"/>
+      <circle cx="168" cy="28" r="7" fill="#111111"/>
+      <circle cx="202" cy="104" r="7" fill="#111111"/>
+    </g>
+    <text x="18" y="137" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#222222">zoomed branch</text>
+  </g>
+
+  <!-- Connector lines to inset -->
+  <g id="inset-connectors" fill="none" stroke="#222222" stroke-width="2">
+    <path d="M 440 235 L 515 278"/>
+    <path d="M 500 185 L 765 278"/>
+  </g>
+
+  <!-- Topological metrics branch -->
+  <g id="topological-metrics" transform="translate(800,80)" stroke-linecap="round" stroke-linejoin="round">
+    <g fill="none" stroke="#B7B9BA" stroke-width="32" opacity="0.55">
+      <path d="M 40 285 C 90 230 130 205 190 172 C 235 147 262 104 290 42"/>
+      <path d="M 190 172 C 245 188 285 220 330 270"/>
+      <path d="M 190 172 C 158 124 128 91 88 55"/>
+      <path d="M 235 147 C 275 132 314 112 350 86"/>
+    </g>
+    <g fill="none" stroke="#1D2E8A" stroke-width="6">
+      <path d="M 40 285 L 95 230 L 190 172 L 290 42"/>
+      <path d="M 190 172 L 330 270"/>
+      <path d="M 190 172 L 88 55"/>
+      <path d="M 235 147 L 350 86"/>
+    </g>
+    <g fill="none" stroke="#4CAF50" stroke-width="4" opacity="0.90">
+      <path d="M 95 230 L 190 172 L 290 42"/>
+      <path d="M 190 172 L 330 270"/>
+      <path d="M 190 172 L 88 55"/>
+    </g>
+    <g fill="#16206D" stroke="#FFFFFF" stroke-width="2.5">
+      <circle cx="40" cy="285" r="8"/>
+      <circle cx="95" cy="230" r="8"/>
+      <circle cx="190" cy="172" r="10"/>
+      <circle cx="290" cy="42" r="8"/>
+      <circle cx="330" cy="270" r="8"/>
+      <circle cx="88" cy="55" r="8"/>
+      <circle cx="235" cy="147" r="8"/>
+      <circle cx="350" cy="86" r="8"/>
+    </g>
+  </g>
+</svg>

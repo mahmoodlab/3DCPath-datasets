@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+  <defs>
+    <style>
+      .inner-hole {
+        fill: #ffffff;
+        stroke: #e9e3dc;
+        stroke-width: 6;
+      }
+    </style>
+  </defs>
+
+  <!-- Four touching regions, one at each quadrant of the circumference. -->
+  <path fill="#cf6f69" d="M 360 70 A 290 290 0 0 1 650 360 L 490 360 A 130 130 0 0 0 360 230 Z"/>
+  <path fill="#e6ad35" d="M 650 360 A 290 290 0 0 1 360 650 L 360 490 A 130 130 0 0 0 490 360 Z"/>
+  <path fill="#8b77b8" d="M 360 650 A 290 290 0 0 1 70 360 L 230 360 A 130 130 0 0 0 360 490 Z"/>
+  <path fill="#69aa78" d="M 70 360 A 290 290 0 0 1 360 70 L 360 230 A 130 130 0 0 0 230 360 Z"/>
+
+  <circle class="inner-hole" cx="360" cy="360" r="130"/>
+</svg>

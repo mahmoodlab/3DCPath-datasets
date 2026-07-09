@@ -1,4 +1,10 @@
-# 3DCPath-datasets: Compilation of publicly-available datasets in 3D pathology
+# 3DCPath-datasets: A compilation of publicly-available datasets in 3D pathology
+
+*3DCPath-datasets* is a compilation of publicly available datasets in 3D Computational Pathology (3D CPath), spanning morphological data (3D tissue images) and molecular 3D data. It is organized into three main categories: [volumetric morphological/imaging data](#volumetric-morphologicalimaging-data), [volumetric genomic data](#volumetric-genomic-data), and [combined volumetric morphological and genomic data](#volumetric-morphological-and-genomic-data). The goal of this repository is to accelerate research in 3D CPath and provide the community with a centralized place to access 3D pathology datasets for future studies.
+
+> [!NOTE]
+> Contributions are welcome! Please check the [contributions](#contributions) section below!
+
 
 ## Volumetric morphological/imaging data
 
@@ -18,9 +24,10 @@
   </thead>
   <tbody>
     <tr>
-      <td><em>arXiv</em>(2025)</td>
+      <td><em>Royal Society Interface </em>(2026)</td>
       <td>
         <a href="https://huggingface.co/datasets/cristinaperez9/VISTACT"><strong>VISTACT</strong></a><br>
+        <a href="https://royalsocietypublishing.org/rsif/article/23/239/20251186/482117/Histology-guided-3D-virtual-staining-of-microCT"><strong>[Paper]</strong></a>
       </td>
       <td>VIrtual histological STAining of micro-Computed Tomography (VISTACT)</td>
       <td>Synchtron-based phase-contrast microCT and serial H&E and EvG-stained histological sections</td>
@@ -30,7 +37,7 @@
       <td>869GB</td>
     </tr>
     <tr>
-      <td><em>Nature Communications</em>(2025)</td>
+      <td><em>Nature Communications </em>(2025)</td>
       <td>
         <a href="https://www.scidb.cn/en/detail?dataSetId=a41dec8943814999a6149b7c2c7c82fc"><strong>Holotomography</strong></a><br>
         <a href="https://www.nature.com/articles/s41467-025-59820-0"><strong>[Paper]</strong></a>
@@ -243,7 +250,7 @@
 
 
 
-## Volumetric morphological & genomic data 
+## Volumetric morphological and genomic data
 
 <div>
 <table width="1800">
@@ -355,6 +362,15 @@
   </tbody>
 </table>
 </div>
+
+## Contributions
+
+If you would like to add a 3D dataset to the current compilation, please create a pull request with details for each field in the tables above, or contact calmagro@mit.edu .
+
+##
+
+<img src=docs/images/joint_logo.png>
+
 
 
 

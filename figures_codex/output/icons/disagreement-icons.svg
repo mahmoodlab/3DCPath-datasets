@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <style>
+      .ink{fill:none;stroke:#6f7378;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}
+      .dark{fill:none;stroke:#3a3a3a;stroke-width:10;stroke-linecap:round;stroke-linejoin:round}
+      .soft{fill:#eef3f7;stroke:#6f7378;stroke-width:7;stroke-linejoin:round}
+      .accent{fill:#f7d8ac;stroke:#6f7378;stroke-width:7;stroke-linejoin:round}
+      .red{fill:none;stroke:#b44747;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+    <marker id="arrowGray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#6f7378"/>
+    </marker>
+    <marker id="arrowDark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#3a3a3a"/>
+    </marker>
+  </defs>
+
+  <!-- Option 1: opposing decisions -->
+  <g transform="translate(50 38)">
+    <path class="ink" marker-end="url(#arrowGray)" d="M52 86h136"/>
+    <path class="dark" marker-end="url(#arrowDark)" d="M188 142H52"/>
+    <path class="red" d="M96 55l48 118M144 55L96 173"/>
+  </g>
+
+  <!-- Option 2: mismatched treatment cards -->
+  <g transform="translate(330 48)">
+    <rect class="soft" x="18" y="20" width="126" height="68" rx="4"/>
+    <rect class="soft" x="94" y="112" width="126" height="68" rx="4"/>
+    <path class="ink" d="M42 44h78M42 66h60"/>
+    <path class="ink" d="M118 136h78M118 158h58"/>
+    <path class="red" d="M87 89l64 22"/>
+    <path class="red" d="M151 89l-64 22"/>
+  </g>
+
+  <!-- Option 3: split decision / discordance -->
+  <g transform="translate(620 30)">
+    <path class="accent" d="M121 31c47 0 85 38 85 85s-38 85-85 85-85-38-85-85 38-85 85-85z"/>
+    <path class="ink" d="M121 31v170"/>
+    <path class="ink" marker-end="url(#arrowGray)" d="M86 96H42"/>
+    <path class="dark" marker-end="url(#arrowDark)" d="M156 136h44"/>
+    <path class="red" d="M93 76l56 80M149 76l-56 80"/>
+  </g>
+</svg>

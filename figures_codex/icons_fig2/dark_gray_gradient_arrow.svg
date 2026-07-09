@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="180" viewBox="0 0 1800 180">
+  <defs>
+    <linearGradient id="darkGrayArrowGradient" x1="0" y1="0" x2="1800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f7fa" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#e5e8eb" stop-opacity="0.45"/>
+      <stop offset="0.58" stop-color="#b9b9b9" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#4f4f4f" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <path
+    d="M0 53 H1692 V15 L1800 90 L1692 165 V127 H0 Z"
+    fill="url(#darkGrayArrowGradient)"
+  />
+</svg>

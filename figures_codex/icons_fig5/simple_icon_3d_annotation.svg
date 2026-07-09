@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <style>
+      .edge{fill:none;stroke:#343434;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .thin{fill:none;stroke:#343434;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <path class="edge" d="M73 166 H148 L177 137 V66 H73 Z" fill="#f7f7f7"/>
+  <path class="thin" d="M73 94 H177 M73 122 H177 M73 150 H149"/>
+  <path class="thin" d="M149 166 V137 H177"/>
+  <path d="M89 134 C106 112 126 158 145 123" fill="none" stroke="#6b8fc9" stroke-width="7" stroke-linecap="round"/>
+  <g transform="translate(131 42) rotate(37)">
+    <rect x="34" y="20" width="30" height="103" rx="7" fill="#f2c56b" stroke="#343434" stroke-width="7"/>
+    <path d="M34 38 H64" stroke="#343434" stroke-width="6"/>
+    <path d="M34 116 L49 143 L64 116 Z" fill="#ffffff" stroke="#343434" stroke-width="7" stroke-linejoin="round"/>
+    <circle cx="49" cy="127" r="4" fill="#343434"/>
+  </g>
+</svg>

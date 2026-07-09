@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380">
+  <defs>
+    <style>
+      .edge { stroke: #62708a; stroke-width: 5; stroke-linejoin: round; stroke-linecap: round; }
+      .thin { fill: none; stroke: #62708a; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .roi { fill: none; stroke: #76bf55; stroke-width: 7; stroke-linejoin: round; }
+      .connector { fill: none; stroke: #76bf55; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .bgcell { fill: #6f76bf; opacity: 0.88; stroke: #434b89; stroke-width: 2.2; }
+      .bgcell2 { fill: #858ccf; opacity: 0.86; stroke: #4b548e; stroke-width: 2.2; }
+      .tumor { fill: #d85b59; opacity: 0.92; stroke: #a64245; stroke-width: 2.2; }
+      .faceTop { fill: #273047; }
+      .faceFront { fill: #454d73; }
+      .faceSide { fill: #687095; }
+      .zoomBg { fill: #eef1f6; stroke: #62708a; stroke-width: 5; }
+    </style>
+  </defs>
+
+  <!-- 3D synthetic tissue volume -->
+  <g transform="translate(42 20) scale(0.92)">
+    <polygon class="edge faceTop" points="0,108 248,34 472,108 220,184"/>
+    <polygon class="edge faceFront" points="0,108 220,184 220,326 0,246"/>
+    <polygon class="edge faceSide" points="220,184 472,108 472,245 220,326"/>
+
+    <clipPath id="topClip">
+      <polygon points="0,108 248,34 472,108 220,184"/>
+    </clipPath>
+    <clipPath id="frontClip">
+      <polygon points="0,108 220,184 220,326 0,246"/>
+    </clipPath>
+    <clipPath id="sideClip">
+      <polygon points="220,184 472,108 472,245 220,326"/>
+    </clipPath>
+
+    <g clip-path="url(#topClip)">
+      <ellipse class="bgcell" cx="86" cy="106" rx="32" ry="17" transform="rotate(-8 86 106)"/>
+      <ellipse class="bgcell" cx="151" cy="84" rx="35" ry="19" transform="rotate(12 151 84)"/>
+      <ellipse class="bgcell2" cx="229" cy="74" rx="37" ry="20" transform="rotate(-10 229 74)"/>
+      <ellipse class="bgcell" cx="315" cy="97" rx="38" ry="22" transform="rotate(8 315 97)"/>
+      <ellipse class="bgcell2" cx="382" cy="121" rx="34" ry="18" transform="rotate(-14 382 121)"/>
+      <ellipse class="bgcell" cx="224" cy="142" rx="36" ry="20" transform="rotate(4 224 142)"/>
+      <ellipse class="tumor" cx="132" cy="124" rx="23" ry="13"/>
+      <ellipse class="tumor" cx="266" cy="116" rx="28" ry="14" transform="rotate(12 266 116)"/>
+      <ellipse class="tumor" cx="350" cy="151" rx="20" ry="12"/>
+    </g>
+
+    <g clip-path="url(#frontClip)" opacity="0.92">
+      <ellipse class="bgcell2" cx="58" cy="173" rx="32" ry="17" transform="rotate(-10 58 173)"/>
+      <ellipse class="bgcell" cx="121" cy="205" rx="34" ry="19" transform="rotate(11 121 205)"/>
+      <ellipse class="bgcell2" cx="169" cy="255" rx="35" ry="20" transform="rotate(-14 169 255)"/>
+      <ellipse class="bgcell" cx="70" cy="237" rx="28" ry="16" transform="rotate(6 70 237)"/>
+      <ellipse class="tumor" cx="154" cy="195" rx="22" ry="12"/>
+      <ellipse class="tumor" cx="188" cy="235" rx="18" ry="11"/>
+    </g>
+
+    <g clip-path="url(#sideClip)" opacity="0.78">
+      <ellipse class="bgcell2" cx="278" cy="183" rx="32" ry="17" transform="rotate(-13 278 183)"/>
+      <ellipse class="bgcell" cx="358" cy="160" rx="37" ry="20" transform="rotate(9 358 160)"/>
+      <ellipse class="bgcell2" cx="419" cy="207" rx="34" ry="18" transform="rotate(-9 419 207)"/>
+      <ellipse class="bgcell" cx="308" cy="254" rx="35" ry="20" transform="rotate(7 308 254)"/>
+      <ellipse class="tumor" cx="314" cy="204" rx="21" ry="12"/>
+      <ellipse class="tumor" cx="392" cy="230" rx="18" ry="10"/>
+    </g>
+
+    <!-- ROI on lower/front-right portion of volume -->
+    <polygon class="roi" points="174,196 332,149 332,215 174,263"/>
+  </g>
+
+  <!-- Zoom-in placed below the volume -->
+  <g transform="translate(240 285)">
+    <rect class="zoomBg" x="0" y="0" width="330" height="82" rx="8"/>
+    <clipPath id="zoomClip">
+      <rect x="0" y="0" width="330" height="82" rx="8"/>
+    </clipPath>
+    <g clip-path="url(#zoomClip)">
+      <rect x="0" y="0" width="330" height="82" fill="#f6f7fb"/>
+      <ellipse class="bgcell" cx="43" cy="42" rx="33" ry="18" transform="rotate(-8 43 42)"/>
+      <ellipse class="bgcell2" cx="103" cy="55" rx="34" ry="20" transform="rotate(9 103 55)"/>
+      <ellipse class="bgcell" cx="169" cy="34" rx="36" ry="20" transform="rotate(-13 169 34)"/>
+      <ellipse class="bgcell2" cx="237" cy="51" rx="38" ry="21" transform="rotate(7 237 51)"/>
+      <ellipse class="bgcell" cx="300" cy="31" rx="32" ry="18" transform="rotate(-5 300 31)"/>
+      <ellipse class="tumor" cx="92" cy="32" rx="21" ry="13"/>
+      <ellipse class="tumor" cx="194" cy="57" rx="25" ry="14" transform="rotate(8 194 57)"/>
+      <ellipse class="tumor" cx="261" cy="62" rx="17" ry="10"/>
+    </g>
+  </g>
+
+  <path class="connector" d="M202 262 L240 285"/>
+  <path class="connector" d="M348 215 L570 285"/>
+</svg>

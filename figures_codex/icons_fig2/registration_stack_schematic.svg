@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+  <defs>
+    <filter id="soft-shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#1f2933" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arrowhead" markerWidth="28" markerHeight="28" refX="23" refY="14" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 28 14 L 0 28 z" fill="#2b2f33"/>
+    </marker>
+    <linearGradient id="top-plane" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#b9bec2"/>
+      <stop offset="1" stop-color="#7e858a"/>
+    </linearGradient>
+    <linearGradient id="bottom-plane" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#a8adb0"/>
+      <stop offset="1" stop-color="#6f767b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1100" height="650" fill="#ffffff"/>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#141414">
+    <text x="85" y="118" font-size="46" font-weight="600">Plane 1</text>
+    <text x="130" y="215" font-size="42" font-weight="600">...</text>
+    <text x="85" y="328" font-size="46" font-weight="700">Reference</text>
+    <text x="130" y="435" font-size="42" font-weight="600">...</text>
+    <text x="85" y="552" font-size="46" font-weight="600">Plane n</text>
+  </g>
+
+  <g transform="translate(505 320) scale(0.82)" filter="url(#soft-shadow)">
+    <g opacity="0.92">
+      <polygon points="-205,-205 20,-325 260,-200 35,-80" fill="url(#top-plane)"/>
+      <polygon points="-190,-162 35,-282 245,-172 20,-52" fill="#9da3a7"/>
+      <polygon points="-175,-124 50,-244 230,-146 5,-26" fill="#8f969a"/>
+    </g>
+
+    <polygon points="-215,-25 20,-150 270,-20 35,105" fill="#2f3438"/>
+
+    <g opacity="0.92">
+      <polygon points="-178,138 38,22 250,132 34,248" fill="#8f969a"/>
+      <polygon points="-194,100 22,-16 266,110 50,226" fill="#9da3a7"/>
+      <polygon points="-210,62 6,-54 282,90 66,206" fill="url(#bottom-plane)"/>
+    </g>
+  </g>
+
+  <g fill="none" stroke="#2b2f33" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowhead)">
+    <path d="M 780 230 C 925 225 940 322 832 346"/>
+    <path d="M 832 405 C 940 420 922 502 782 508"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#2b2f33">
+    <text x="755" y="116" font-size="30" font-weight="600">register to</text>
+    <text x="755" y="153" font-size="30" font-weight="600">reference plane</text>
+  </g>
+</svg>
