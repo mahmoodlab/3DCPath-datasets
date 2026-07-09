@@ -1,4 +1,4 @@
-# 3DCPath-datasets: A compilation of publicly-available datasets in 3D pathology
+# 3DCPath-datasets: A compilation of publicly available datasets in 3D pathology
 
 *3DCPath-datasets* is a compilation of publicly available datasets in 3D Computational Pathology (3D CPath), spanning morphological data (3D tissue images) and molecular 3D data. It is organized into three main categories: [volumetric morphological/imaging data](#volumetric-morphologicalimaging-data), [volumetric genomic data](#volumetric-genomic-data), and [combined volumetric morphological and genomic data](#volumetric-morphological-and-genomic-data). The goal of this repository is to accelerate research in 3D CPath and provide the community with a centralized place to access 3D pathology datasets for future studies.
 
