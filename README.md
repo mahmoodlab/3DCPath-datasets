@@ -1,10 +1,13 @@
-# 3DCPath-datasets: A compilation of publicly-available datasets in 3D pathology
+# 3DCPath-datasets: A compilation of publicly available datasets in 3D pathology
 
 *3DCPath-datasets* is a compilation of publicly available datasets in 3D Computational Pathology (3D CPath), spanning morphological data (3D tissue images) and molecular 3D data. It is organized into three main categories: [volumetric morphological/imaging data](#volumetric-morphologicalimaging-data), [volumetric genomic data](#volumetric-genomic-data), and [combined volumetric morphological and genomic data](#volumetric-morphological-and-genomic-data). The goal of this repository is to accelerate research in 3D CPath and provide the community with a centralized place to access 3D pathology datasets for future studies.
 
 > [!NOTE]
 > Contributions are welcome! Please check the [contributions](#contributions) section below!
 
+## Updates
+
+- **07/22/26**: *3DCPath-datasets* is now live and will be continuously updated as new datasets become available.
 
 ## Volumetric morphological/imaging data
 
@@ -12,6 +15,7 @@
 <table width="1600">
   <thead>
     <tr>
+      <th width="115">Added</th>
       <th width="150">Venue / Date</th>
       <th width="160">Dataset</th>
       <th width="360">Title</th>
@@ -24,6 +28,7 @@
   </thead>
   <tbody>
     <tr>
+      <td>07/15/26</td>
       <td><em>Royal Society Interface </em>(2026)</td>
       <td>
         <a href="https://huggingface.co/datasets/cristinaperez9/VISTACT"><strong>VISTACT</strong></a><br>
@@ -37,6 +42,7 @@
       <td>869GB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Nature Communications </em>(2025)</td>
       <td>
         <a href="https://www.scidb.cn/en/detail?dataSetId=a41dec8943814999a6149b7c2c7c82fc"><strong>Holotomography</strong></a><br>
@@ -50,6 +56,7 @@
       <td>24.74GB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Cancer Research</em>(March 2023)</td>
       <td>
         <a href="https://www.cancerimagingarchive.net/collection/pca_bx_3dpathology/"><strong>PCa_Bx_3Dpathology</strong></a><br>
@@ -63,6 +70,7 @@
       <td>3.8TB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>MICCAI challenge</em>(2023)</td>
       <td>
         <a href="https://acrobat.grand-challenge.org/"><strong>ACROBAT</strong></a><br>
@@ -75,6 +83,7 @@
       <td>n/a</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Optica</em>(December 2022)</td>
       <td>
         <a href="https://drive.google.com/file/d/1mjYYLMLYX5H5GK6XmmXt_3lPo_dmFuJE/view?pli=1"><strong>Data</strong></a><br>
@@ -88,6 +97,7 @@
       <td>26 GB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Cell</em>(2022)</td>
       <td>
         <a href="https://github.com/labsyspharm/CRC_atlas_2022"><strong>3DCRC</strong></a><br>
@@ -101,6 +111,7 @@
       <td>2.1 TB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>PNAS</em>(2022)</td>
       <td>
         <a href="https://zenodo.org/records/5658994#.YZKJWXso_mF"><strong>3d virtual histology of the human hippocampus</strong></a><br>
@@ -114,6 +125,7 @@
       <td>64.8 GB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>eLife</em>(2021)</td>
       <td>
         <a href="https://zenodo.org/records/5658380"><strong>3D virtual Histopathology</strong></a><br>
@@ -127,6 +139,7 @@
       <td>175.4 GB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>eLife</em>(2020)</td>
       <td>
         <a href="https://zenodo.org/records/3892637"><strong>3D virtual pathohistology</strong></a><br>
@@ -154,6 +167,7 @@
 <table width="1800">
   <thead>
     <tr>
+      <th width="115">Added</th>
       <th width="160">Journal / Date</th>
       <th width="170">Dataset</th>
       <th width="400">Title</th>
@@ -168,6 +182,7 @@
   </thead>
   <tbody>
     <tr>
+      <td>07/15/26</td>
       <td><em>Nature Methods</em> (November 2025)</td>
       <td>
         <a href="https://zenodo.org/records/16783355"><strong>Deep-STARmap</strong></a><br>
@@ -183,6 +198,7 @@
       <td>2.1GB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Nature Methods</em> (September 2025)</td>
       <td>
         <a href="https://zenodo.org/records/15230302"><strong>3Dniches</strong></a><br>
@@ -198,6 +214,7 @@
       <td>3.17TB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Nature Methods</em> (December 2025)</td>
       <td>
         <a href="https://figshare.com/articles/dataset/SpatialZ_Bridging_the_Dimensional_Gap_from_Planar_Spatial_Transcriptomics_to_3D_Cell_Atlases-processed_datasets/30418285"><strong>SpatialZ</strong></a><br>
@@ -213,6 +230,7 @@
       <td>30.5MB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Nature Metabolism</em> (March 2025)</td>
       <td>
         <a href="https://zenodo.org/records/14212427"><strong>MetaVision3D</strong></a><br>
@@ -228,6 +246,7 @@
       <td>3.3GB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Nature Cancer</em> (January 2022)</td>
       <td>
         <a href="https://zenodo.org/records/4752030"><strong>3D IMC</strong></a><br>
@@ -256,6 +275,7 @@
 <table width="1800">
   <thead>
     <tr>
+      <th width="115">Added</th>
       <th width="160">Journal / Date</th>
       <th width="170">Dataset</th>
       <th width="400">Title</th>
@@ -270,6 +290,7 @@
   </thead>
   <tbody>
     <tr>
+      <td>07/15/26</td>
       <td><em>Nature</em> (October 2024)</td>
       <td>
         <a href="https://humantumoratlas.org/explore?selectedFilters=%5B%7B%22group%22%3A%22AtlasName%22%2C%22value%22%3A%22HTAN+WUSTL%22%7D%5D&tab=file"><strong>2D3DTumorEvolution</strong></a><br>
@@ -285,6 +306,7 @@
       <td>N/A</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Cell</em> (July 2024)</td>
       <td>
         <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE251926"><strong>OpenST</strong></a><br>
@@ -300,6 +322,7 @@
       <td>2.2GB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Nature Communications</em> (February 2022)</td>
       <td>
         <a href="https://singlecell.broadinstitute.org/single_cell/study/SCP1414/3dst-ra#study-summary"><strong>3DST_RA</strong></a><br>
@@ -315,6 +338,7 @@
       <td>2.2GB (.gz format)</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Nature Neuroscience</em> (March 2021)</td>
       <td>
         <a href="http://spatial.libd.org/spatialLIBD/"><strong>Human prefrontal cortex</strong></a><br>
@@ -330,6 +354,7 @@
       <td>N/A</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Nature Communications</em> (February 2021)</td>
       <td>
         <a href="https://zenodo.org/records/4751624"><strong>HER2+</strong></a><br>
@@ -345,6 +370,7 @@
       <td>629.6 MB</td>
     </tr>
     <tr>
+      <td>07/15/26</td>
       <td><em>Cell</em> (December 2019)</td>
       <td>
         <a href="https://data.mendeley.com/datasets/dgnysc3zn5/1"><strong>Human Heart</strong></a><br>
