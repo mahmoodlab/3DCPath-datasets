@@ -4,3 +4,4 @@ metadata/2D3D_tumor_evolution_Nature2024.xlsx
 figures_codex/
 manifests_tcga/
 instructions/
+__pycache__/
