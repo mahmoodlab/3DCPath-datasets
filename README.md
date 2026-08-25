@@ -7,7 +7,7 @@
 
 ## Updates
 
-- **07/22/26**: *3DCPath-datasets* is now live and will be continuously updated as new datasets become available.
+- **08/25/26**: *3DCPath-datasets* is now live and will be continuously updated as new datasets become available.
 
 ## Volumetric morphological/imaging data
 
