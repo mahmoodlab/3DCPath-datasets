@@ -7,6 +7,7 @@
 
 ## Updates
 
+- **11/24/26**: New 3D ST and SP datasets (Xenium and CODEX) from human colorectal tissue with corresponding H&Es have been added.
 - **08/25/26**: *3DCPath-datasets* is now live and will be continuously updated as new datasets become available.
 
 ## Volumetric morphological/imaging data
@@ -374,6 +375,25 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>11/24/26</td>
+      <td><em>Nature Methods</em> (November 2026)</td>
+      <td>
+        <a href="https://humantumoratlas.org/publications/hta10_2026__rongduo-han?tab=10x-xenium-iss"><strong>Xenium-Polyp</strong></a><br>
+        <a href="https://humantumoratlas.org/publications/hta10_2026__rongduo-han?tab=h%26e"><strong>Xenium-Polyp H&E</strong></a><br>
+        <a href="https://doi.org/10.35079/HBM632.RMQV.469"><strong>CODEX-Duodenum</strong></a><br>
+        <a href="https://doi.org/10.35079/HBM458.CTTZ.946"><strong>CODEX-Sigmoid</strong></a><br>
+        <a href="https://www.nature.com/articles/s41592-026-03310-8"><strong>[Paper]</strong></a>
+      </td>
+      <td>Space-map: 3D single-cell atlas reconstruction from serial sections</td>
+      <td>Serial sections; Xenium ST (422 genes) and CODEX/PhenoCycler-Fusion SP (52 proteins), each with post-assay H&E on the same slides</td>
+      <td>5 µm section thickness; Xenium 0.2125 µm/pixel; H&E and CODEX imaged at 40×; single-cell ST/SP</td>
+      <td>Human colon polyp (tubular adenoma, FAP); healthy duodenum and sigmoid colon</td>
+      <td>3 volumes from 2 patients (polyp from 1 patient; duodenum and sigmoid colon from 1 healthy donor)</td>
+      <td>Xenium-Polyp: 30 (sections 3–32; 3–22 used for the 3D model);<br>CODEX: 16 duodenum + 16 sigmoid colon</td>
+      <td>Xenium: 2,727,361 cells;<br>CODEX: ~4.8M cells</td>
+      <td>Xenium: 86GB;<br>H&E: 3GB;<br>CODEX: N/A</td>
+    </tr>
     <tr>
       <td>08/25/26</td>
       <td><em>Cell systems</em> (May 2025)</td>
